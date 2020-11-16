@@ -22,7 +22,7 @@ function first(arr) {
   return arr[0]
 }
 
-console.log(first(arr))
+// console.log(first(arr))
 
 
 ////////// PROBLEM 2 //////////
@@ -41,7 +41,7 @@ function last(arr) {
   return arr[2]
 }
 
-console.log(last(arr))
+// console.log(last(arr))
 
 ////////// PROBLEM 3 //////////
 

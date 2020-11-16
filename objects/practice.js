@@ -14,7 +14,12 @@
   Then alert your name using dot notation.
 */
 
-//Code here
+const me = {
+  name: 'Jake',
+  age: 41
+}
+
+console.log(me.age)
 
 ////////// PROBLEM 2 //////////
 
@@ -24,6 +29,14 @@
 */
 
 //Code here
+const favoriteThings = {
+  band: 'the Killers',
+  food: 'AYCE KBBQ',
+  person: 'Melanie',
+  book: 'Everyone Poos',
+  movie: 'Interstellar',
+  holiday: 'Thanksgiving'
+}
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
@@ -31,13 +44,16 @@
 */
 
 //Code here
-
+favoriteThings.car = 'Truck'
+favoriteThings.brand = 'Under Amour'
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
 //Code here
+favoriteThings.food = 'Chicken Nuggets'
+favoriteThings.book = 'Harry Potter'
 
 ////////// PROBLEM 3 //////////
 
@@ -51,11 +67,22 @@
 
 //Code here
 
+const backPack = {}
+
+var item = 'firstPocket'
+
+backPack.item = 'firstPocket'
+
+backPack.firstPocket = 'chapstick'
+
+backPack.color = "aqua"
+
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
+console.log(backPack)
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -85,6 +112,9 @@ var user2 = {
 */
 
 //Code Here
+let updatedUser2 = user2
+updatedUser2.name = 'Bryan G. Smith'
+updatedUser2.email = 'bryan.smith@devmounta.in'
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
